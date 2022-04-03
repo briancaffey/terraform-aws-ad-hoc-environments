@@ -11,21 +11,21 @@ variable "private_subnets" {
 }
 
 variable "rds_instance_class" {
-  type = string
+  type    = string
   default = "db.t3.micro"
 }
 
 variable "rds_db_name" {
-  type = string
+  type    = string
   default = "postgres"
 }
 
 variable "rds_username" {
-  type = string
+  type    = string
   default = "postgres"
 }
 
 variable "rds_password" {
-  type = string
+  type    = string
   default = "postgres"
 }

@@ -14,7 +14,7 @@ provider "aws" {
 }
 
 module "main" {
-  source              = "../../"
-  certificate_arn     = var.certificate_arn
-  key_name            = var.key_name
+  source          = "../../"
+  certificate_arn = var.certificate_arn
+  key_name        = var.key_name
 }

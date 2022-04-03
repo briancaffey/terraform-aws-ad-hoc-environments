@@ -27,10 +27,10 @@ module "sg" {
 }
 
 module "lb" {
-  source = "./modules/lb"
-  vpc_id = module.vpc.vpc_id
-  public_subnets = module.vpc.public_subnets
-  alb_sg_id = module.sg.alb_sg_id
+  source          = "./modules/lb"
+  vpc_id          = module.vpc.vpc_id
+  public_subnets  = module.vpc.public_subnets
+  alb_sg_id       = module.sg.alb_sg_id
   certificate_arn = var.certificate_arn
 }
 
@@ -44,17 +44,17 @@ module "iam" {
 }
 
 module "rds" {
-  source = "./modules/rds"
-  ecs_sg_id = module.sg.ecs_sg_id
-  vpc_id = module.vpc.vpc_id
+  source          = "./modules/rds"
+  ecs_sg_id       = module.sg.ecs_sg_id
+  vpc_id          = module.vpc.vpc_id
   private_subnets = module.vpc.private_subnets
 }
 
 module "bastion" {
-  source = "./modules/bastion"
-  vpc_id = module.vpc.vpc_id
-  key_name = var.key_name
-  alb_sg_id = module.sg.alb_sg_id
-  ecs_sg_id = module.sg.ecs_sg_id
+  source         = "./modules/bastion"
+  vpc_id         = module.vpc.vpc_id
+  key_name       = var.key_name
+  alb_sg_id      = module.sg.alb_sg_id
+  ecs_sg_id      = module.sg.ecs_sg_id
   public_subnets = module.vpc.public_subnets
 }

@@ -3,7 +3,7 @@ variable "vpc_id" {
 }
 
 variable "health_check_path" {
-  type = string
+  type    = string
   default = "/"
 }
 
