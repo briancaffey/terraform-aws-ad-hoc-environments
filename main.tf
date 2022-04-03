@@ -34,8 +34,8 @@ module "lb" {
   certificate_arn = var.certificate_arn
 }
 
-module "ecs" {
-  source = "./modules/ecs"
+module "sd" {
+  source = "./modules/sd"
   vpc_id = module.vpc.vpc_id
 }
 

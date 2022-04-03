@@ -18,14 +18,10 @@ output "listener_arn" {
   value = module.lb.listener_arn
 }
 
-# ECS
-
-output "cluster_arn" {
-  value = module.ecs.cluster_arn
-}
+# Service Discovery
 
 output "service_discovery_namespace_id" {
-  value = module.ecs.service_discovery_namespace_id
+  value = module.sd.service_discovery_namespace_id
 }
 
 # IAM
