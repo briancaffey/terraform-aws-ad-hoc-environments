@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.0](https://github.com/briancaffey/terraform-aws-ad-hoc-environments/compare/v0.1.1...v0.2.0) (2022-04-17)
+
+
+### Features
+
+* **examples:** add s3 backend for terraform block in simple example ([397f87a](https://github.com/briancaffey/terraform-aws-ad-hoc-environments/commit/397f87a4c9d48ae829b9958b24feed6accedcd80))
+
 ### [0.1.1](https://github.com/briancaffey/terraform-aws-ad-hoc-environments/compare/v0.1.0...v0.1.1) (2022-04-17)
 
 
