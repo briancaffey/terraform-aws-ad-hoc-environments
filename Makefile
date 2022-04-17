@@ -2,7 +2,7 @@ tf-fmt:
 	terraform fmt -recursive
 
 examples-simple-init:
-	terraform -chdir=examples/simple init
+	terraform -chdir=examples/simple init -backend-config=backend.config
 
 examples-simple-plan:
 	terraform -chdir=examples/simple plan
