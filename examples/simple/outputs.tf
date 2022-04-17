@@ -18,11 +18,7 @@ output "listener_arn" {
   value = module.main.listener_arn
 }
 
-# ECS
-
-output "cluster_arn" {
-  value = module.main.cluster_arn
-}
+# Service Discovery
 
 output "service_discovery_namespace_id" {
   value = module.main.service_discovery_namespace_id
