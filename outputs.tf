@@ -12,10 +12,28 @@ output "public_subnets" {
   value = module.vpc.public_subnets
 }
 
+# security groups
+
+output "ecs_sg_id" {
+  value = module.sg.ecs_sg_id
+}
+
+output "alb_sg_id" {
+  value = module.sg.alb_sg_id
+}
+
 # Load balancer
 
 output "listener_arn" {
   value = module.lb.listener_arn
+}
+
+output "alb_default_tg_arn" {
+  value = module.lb.alb_default_tg_arn
+}
+
+output "alb_dns_name" {
+  value = module.lb.alb_dns_name
 }
 
 # Service Discovery

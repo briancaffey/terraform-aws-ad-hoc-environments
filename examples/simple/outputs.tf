@@ -12,10 +12,24 @@ output "public_subnets" {
   value = module.main.public_subnets
 }
 
+# Security groups
+
+output "ecs_sg_id" {
+  value = module.main.ecs_sg_id
+}
+
 # Load balancer
 
 output "listener_arn" {
   value = module.main.listener_arn
+}
+
+output "alb_default_tg_arn" {
+  value = module.main.alb_default_tg_arn
+}
+
+output "alb_dns_name" {
+  value = module.main.alb_dns_name
 }
 
 # Service Discovery
@@ -35,6 +49,11 @@ output "execution_role_arn" {
 }
 
 # RDS
+
+output "rds_address" {
+  value       = module.main.rds_address
+  description = "address of the RDS instance"
+}
 
 # Bastion
 

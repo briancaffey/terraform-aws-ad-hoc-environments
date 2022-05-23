@@ -10,5 +10,8 @@ examples-simple-plan:
 examples-simple-apply:
 	terraform -chdir=examples/simple apply
 
+# init, plan apply
+examples-simple: examples-simple-init examples-simple-plan examples-simple-apply
+
 examples-simple-destroy:
 	terraform -chdir=examples/simple destroy
