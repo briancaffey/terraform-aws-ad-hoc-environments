@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.0](https://github.com/briancaffey/terraform-aws-ad-hoc-environments/compare/v0.2.0...v0.3.0) (2022-05-23)
+
+
+### Features
+
+* **outputs:** add terraform outputs ([fcc67eb](https://github.com/briancaffey/terraform-aws-ad-hoc-environments/commit/fcc67ebaf5ccc02de8a4dd29374a94c01b99f6c1))
+
 ## [0.2.0](https://github.com/briancaffey/terraform-aws-ad-hoc-environments/compare/v0.1.1...v0.2.0) (2022-04-17)
 
 
