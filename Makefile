@@ -15,3 +15,6 @@ examples-simple: examples-simple-init examples-simple-plan examples-simple-apply
 
 examples-simple-destroy:
 	terraform -chdir=examples/simple destroy
+
+examples-simple-output:
+	terraform -chdir=examples/simple output -json

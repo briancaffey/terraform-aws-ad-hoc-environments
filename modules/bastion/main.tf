@@ -19,9 +19,16 @@ data "aws_ami" "amazon-linux-2" {
 resource "aws_instance" "this" {
   ami                         = data.aws_ami.amazon-linux-2.id
   associate_public_ip_address = true
-  #  iam_instance_profile        = "${aws_iam_instance_profile.test.id}"
   instance_type          = var.instance_type
   key_name               = var.key_name
   vpc_security_group_ids = [var.alb_sg_id, var.ecs_sg_id]
   subnet_id              = var.public_subnets[0]
+  user_data              = <<EOF
+    #!/bin/bash
+    yum update -y
+    yum install -y postgresql
+  EOF
+  tags = {
+    Name = "${terraform.workspace}-bastion"
+  }
 }
