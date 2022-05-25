@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.0](https://github.com/briancaffey/terraform-aws-ad-hoc-environments/compare/v0.3.0...v0.4.0) (2022-05-25)
+
+
+### Features
+
+* **shared-resources:** add postgresql client to bastion host, add outputs ([5929972](https://github.com/briancaffey/terraform-aws-ad-hoc-environments/commit/5929972787b0721fb15ef2b55dea6e3f342320e7))
+
 ## [0.3.0](https://github.com/briancaffey/terraform-aws-ad-hoc-environments/compare/v0.2.0...v0.3.0) (2022-05-23)
 
 
