@@ -36,9 +36,9 @@ resource "aws_db_instance" "this" {
   db_name                 = var.rds_db_name
   username                = var.rds_username
   password                = var.rds_password
-  port                    = "5432"
-  engine                  = "postgres"
-  engine_version          = "13.4"
+  port                    = var.port
+  engine                  = var.engine
+  engine_version          = var.engine_version
   instance_class          = var.rds_instance_class
   allocated_storage       = "20"
   storage_encrypted       = false

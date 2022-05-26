@@ -31,6 +31,29 @@ variable "certificate_arn" {
   type        = string
 }
 
+##############################################################################
+# Bastion host
+##############################################################################
+
 variable "key_name" {
   type = string
+}
+
+##############################################################################
+# RDS (Optional Variables for RDS configuration - defaults to Postgres 13.4)
+##############################################################################
+
+variable "port" {
+  type    = string
+  default = "5432"
+}
+
+variable "engine" {
+  type    = string
+  default = "postgres"
+}
+
+variable "engine_version" {
+  type    = string
+  default = "13.4"
 }

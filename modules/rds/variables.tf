@@ -29,3 +29,18 @@ variable "rds_password" {
   type    = string
   default = "postgres"
 }
+
+variable "port" {
+  type    = string
+  default = "5432"
+}
+
+variable "engine" {
+  type    = string
+  default = "postgres"
+}
+
+variable "engine_version" {
+  type    = string
+  default = "13.4"
+}

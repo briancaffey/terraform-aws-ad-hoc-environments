@@ -68,6 +68,9 @@ module "rds" {
   ecs_sg_id       = module.sg.ecs_sg_id
   vpc_id          = module.vpc.vpc_id
   private_subnets = module.vpc.private_subnets
+  port                    = var.port
+  engine                  = var.engine
+  engine_version          = var.engine_version
 }
 
 ###############################################################################
