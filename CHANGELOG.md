@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.5.0](https://github.com/briancaffey/terraform-aws-ad-hoc-environments/compare/v0.4.0...v0.5.0) (2022-05-26)
+
+
+### Features
+
+* **rds:** add variables to rds that default to postgres 13.4 ([97aeffc](https://github.com/briancaffey/terraform-aws-ad-hoc-environments/commit/97aeffc565dd0ffabbd0387cc6aa384586035424))
+
 ## [0.4.0](https://github.com/briancaffey/terraform-aws-ad-hoc-environments/compare/v0.3.0...v0.4.0) (2022-05-25)
 
 
