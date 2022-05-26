@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.5.1](https://github.com/briancaffey/terraform-aws-ad-hoc-environments/compare/v0.5.0...v0.5.1) (2022-05-26)
+
+
+### Bug Fixes
+
+* **rds:** add terraform workspace to name of security group for rds ([c4b52a7](https://github.com/briancaffey/terraform-aws-ad-hoc-environments/commit/c4b52a783bad8845096b81a307236474e7f66b83))
+
 ## [0.5.0](https://github.com/briancaffey/terraform-aws-ad-hoc-environments/compare/v0.4.0...v0.5.0) (2022-05-26)
 
 
