@@ -57,3 +57,18 @@ variable "engine_version" {
   type    = string
   default = "13.4"
 }
+
+variable "rds_db_name" {
+  type    = string
+  default = "postgres"
+}
+
+variable "rds_username" {
+  type    = string
+  default = "postgres"
+}
+
+variable "rds_password" {
+  type    = string
+  default = "postgres"
+}
