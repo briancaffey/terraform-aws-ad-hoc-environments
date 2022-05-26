@@ -1,6 +1,6 @@
 # RDS Security Group (traffic ECS -> RDS)
 resource "aws_security_group" "this" {
-  name        = "rds-security-group"
+  name        = "${terraform.workspace}-rds-security-group"
   description = "Allows inbound access from ECS only"
   vpc_id      = var.vpc_id
 
