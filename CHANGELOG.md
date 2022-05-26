@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.5.2](https://github.com/briancaffey/terraform-aws-ad-hoc-environments/compare/v0.5.1...v0.5.2) (2022-05-26)
+
+
+### Bug Fixes
+
+* **rds:** expose additional rds variables on root module ([db57b8e](https://github.com/briancaffey/terraform-aws-ad-hoc-environments/commit/db57b8ecc5caf78a070c2d0c5d53cf6b42604fe4))
+
 ### [0.5.1](https://github.com/briancaffey/terraform-aws-ad-hoc-environments/compare/v0.5.0...v0.5.1) (2022-05-26)
 
 
