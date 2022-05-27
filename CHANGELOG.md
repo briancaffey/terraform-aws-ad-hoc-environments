@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.5.4](https://github.com/briancaffey/terraform-aws-ad-hoc-environments/compare/v0.5.3...v0.5.4) (2022-05-27)
+
+
+### Bug Fixes
+
+* **rds:** use var port on rds sg ingress rules ([724c2c3](https://github.com/briancaffey/terraform-aws-ad-hoc-environments/commit/724c2c34ecf2bc8fa153f6d5fab25aa7502b7bb1))
+
 ### [0.5.3](https://github.com/briancaffey/terraform-aws-ad-hoc-environments/compare/v0.5.2...v0.5.3) (2022-05-27)
 
 
