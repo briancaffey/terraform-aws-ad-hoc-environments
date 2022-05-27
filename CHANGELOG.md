@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.6.0](https://github.com/briancaffey/terraform-aws-ad-hoc-environments/compare/v0.5.4...v0.6.0) (2022-05-27)
+
+
+### Features
+
+* **readme:** add link to readme ([309e3eb](https://github.com/briancaffey/terraform-aws-ad-hoc-environments/commit/309e3ebbfd80aace67fbf45a3ca8678b65ebf898))
+
 ### [0.5.4](https://github.com/briancaffey/terraform-aws-ad-hoc-environments/compare/v0.5.3...v0.5.4) (2022-05-27)
 
 
