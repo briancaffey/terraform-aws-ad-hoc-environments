@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.5.3](https://github.com/briancaffey/terraform-aws-ad-hoc-environments/compare/v0.5.2...v0.5.3) (2022-05-27)
+
+
+### Bug Fixes
+
+* **rds:** fix names of vars for rds module ([5b99fec](https://github.com/briancaffey/terraform-aws-ad-hoc-environments/commit/5b99fec3416be5ddab0d1b317f2b408641685103))
+
 ### [0.5.2](https://github.com/briancaffey/terraform-aws-ad-hoc-environments/compare/v0.5.1...v0.5.2) (2022-05-26)
 
 
