@@ -71,9 +71,9 @@ module "rds" {
   port            = var.port
   engine          = var.engine
   engine_version  = var.engine_version
-  db_name         = var.rds_db_name
-  username        = var.rds_username
-  password        = var.rds_password
+  rds_db_name     = var.rds_db_name
+  rds_username    = var.rds_username
+  rds_password    = var.rds_password
 }
 
 ###############################################################################
