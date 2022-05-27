@@ -31,6 +31,7 @@ resource "aws_db_subnet_group" "this" {
   subnet_ids = var.private_subnets
 }
 
+# RDS instance
 resource "aws_db_instance" "this" {
   identifier              = "${terraform.workspace}-rds"
   db_name                 = var.rds_db_name
