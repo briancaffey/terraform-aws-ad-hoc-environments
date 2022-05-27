@@ -6,15 +6,15 @@ resource "aws_security_group" "this" {
 
   ingress {
     protocol        = "tcp"
-    from_port       = "5432"
-    to_port         = "5432"
+    from_port       = var.port
+    to_port         = var.port
     security_groups = [var.ecs_sg_id]
   }
 
   ingress {
     protocol    = "tcp"
-    from_port   = "5432"
-    to_port     = "5432"
+    from_port   = var.port
+    to_port     = var.port
     cidr_blocks = ["0.0.0.0/0"]
   }
 
