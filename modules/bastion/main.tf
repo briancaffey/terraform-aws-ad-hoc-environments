@@ -24,7 +24,7 @@ resource "aws_instance" "this" {
   user_data                   = <<EOF
     #!/bin/bash
     yum update -y
-    yum install -y postgresql
+    yum install -y postgresql mysql
   EOF
   tags = {
     Name = "${terraform.workspace}-bastion"
