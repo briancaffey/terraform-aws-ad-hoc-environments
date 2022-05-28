@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.7.0](https://github.com/briancaffey/terraform-aws-ad-hoc-environments/compare/v0.6.0...v0.7.0) (2022-05-28)
+
+
+### Features
+
+* **iam:** add secrets manager to ecs_task policy ([91f81cc](https://github.com/briancaffey/terraform-aws-ad-hoc-environments/commit/91f81ccc611fc2384516ad55a12ef2ac30016956))
+
 ## [0.6.0](https://github.com/briancaffey/terraform-aws-ad-hoc-environments/compare/v0.5.4...v0.6.0) (2022-05-27)
 
 
