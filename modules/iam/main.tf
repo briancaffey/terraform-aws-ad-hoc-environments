@@ -74,6 +74,11 @@ resource "aws_iam_role_policy" "ecs_task" {
         Effect   = "Allow"
         Action   = ["s3:*"] # TODO: tighten this down
         Resource = ["*"]
+      },
+      {
+        Effect   = "Allow"
+        Action   = ["secretsmanager:GetSecretValue"],
+        Resource = ["*"] # TODO: parameterize this with a prefix value
       }
     ]
   })
