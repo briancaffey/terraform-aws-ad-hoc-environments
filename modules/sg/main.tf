@@ -57,4 +57,10 @@ resource "aws_security_group" "ecs" {
     protocol    = "-1"
     cidr_blocks = ["0.0.0.0/0"]
   }
+
+  # https://github.com/aws/aws-cli/issues/5348
+  # https://docs.aws.amazon.com/cli/latest/reference/ec2/describe-security-groups.html#synopsis
+  tags = {
+    Name = "${terraform.workspace}-ecs-sg"
+  }
 }
