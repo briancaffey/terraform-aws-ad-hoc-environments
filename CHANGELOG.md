@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.7.1](https://github.com/briancaffey/terraform-aws-ad-hoc-environments/compare/v0.7.0...v0.7.1) (2022-06-03)
+
+
+### Bug Fixes
+
+* **sg:** add tag to ecs sg to make filtering easier ([175d1ca](https://github.com/briancaffey/terraform-aws-ad-hoc-environments/commit/175d1caf25f76f0b3b5a0f191b4b81d4a6dff884))
+
 ## [0.7.0](https://github.com/briancaffey/terraform-aws-ad-hoc-environments/compare/v0.6.0...v0.7.0) (2022-05-28)
 
 
