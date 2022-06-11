@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.8.0](https://github.com/briancaffey/terraform-aws-ad-hoc-environments/compare/v0.7.1...v0.8.0) (2022-06-11)
+
+
+### Features
+
+* **exec:** add permission to task role for ecs exec ([d8f1c63](https://github.com/briancaffey/terraform-aws-ad-hoc-environments/commit/d8f1c634e89b0150dfb5b6f2044e06bf76115ac4))
+
 ## [0.7.1](https://github.com/briancaffey/terraform-aws-ad-hoc-environments/compare/v0.7.0...v0.7.1) (2022-06-03)
 
 
